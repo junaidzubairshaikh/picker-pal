@@ -16,5 +16,4 @@ PickerPal is a desktop application that helps users add a list of values and let
 
 ## Screenshots
 
-
-
+![Screenshot](./images/electron-app.PNG)
