@@ -4,4 +4,64 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  border-radius: 5px;
+  border-color:blue;
+  border: 2px solid blue;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-add {
+  margin-bottom: 0.5rem;
+}
+
+.item-display {
+  margin-top: 0.5rem;
+}
+
+.item-display .item-result {
+  min-height: 4rem;
+}
+
+.item-add input {
+  font-size: 16px;
+  font-weight: bold;
+  border-color: blue ;
+  border-style: dotted;
+  padding: 10px;
+  margin-right: 10px;
+  height: 2rem;
+}
+
+.button-electron {
+  border-color: transparent;
+  height: 2rem;
+  min-width:100px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: #ae9a9a;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+

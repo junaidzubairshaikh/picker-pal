@@ -27,5 +27,8 @@
  */
 
 import './index.css';
+import  './lib/styles.css';
 
-console.log('👋 This message is being logged by "renderer.js", included via webpack');
+require('./lib/polyfills');
+require('./lib/main');
+require('./app');

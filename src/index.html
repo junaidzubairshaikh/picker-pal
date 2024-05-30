@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
 
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>PickerPal</title>
+</head>
+
+<body>
+  <div class="container">
+    <p class="flex">Let's select randomly..</p>
+    <div class="item-add flex justify-content">
+      <input type="text" id="inputTextBox">
+      <button class="button-electron" type="button" id="addButton">Add</button>
+    </div>
+    <my-pickup-list id="pickup-component"></my-pickup-list>
+    <div class="item-display flex flex-column justify-content align-item-center">
+      <div class="item-result">
+        <p id="randomSelectedItem">
+        </p>
+      </div>
+      <div>
+        <button class="button-electron" type="button" id="clearButton">Clear</button>
+        <button class="button-electron" type="button" id="selectRandomButton">Select Random</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
